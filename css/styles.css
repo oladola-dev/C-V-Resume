@@ -1,0 +1,151 @@
+/* Global styles ---*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'caveat', cursive;
+    font-weight: 400;
+}
+
+h1 h2 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+a {
+    color: #EF233C;
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0px auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 50%;
+    float: right;
+    padding-right: 150px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: inline-block;
+}
+
+
+/*Header and Footer styles--*/
+
+header,
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+
+/*header*/
+
+header {
+    padding: 0px;
+    position: relative;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F2;
+    margin: 0;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+}
+
+.content-info a {
+    background: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+/* Navigation */
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/*Work Experience----*/
+
+.work {
+    background: #EDF2F4;
+}
+
+h3~p {
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0
+}
+
+
+/*------ Education--*/
+
+.education {
+    background: linear-gradient(rgba(141, 153, 174, 0.2), rgba(141, 153, 174, 0.2)), url(../images/believe.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+p+h3 {
+    margin-top: 30px;
+}
